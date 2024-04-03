@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Net Salary Calculator</h1>
+        <div class="input-group">
+            <label for="basicSalary">Basic Salary (Ksh):</label>
+            <input type="number" id="basicSalary" placeholder="Enter Basic Salary">
+        </div>
+        <div class="input-group">
+            <label for="benefits">Benefits (Ksh):</label>
+            <input type="number" id="benefits" placeholder="Enter Benefits">
+        </div>
+        <button onclick="calculateNetSalary()">Submit</button>
+        <div id="results"></div>
+    </div>
+</body>
+<script src="netSalary.js"></script>
+</html>
